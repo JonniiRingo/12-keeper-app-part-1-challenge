@@ -1,15 +1,12 @@
 import React from "react"; 
-import ReactDOM from "react-dom/client"; 
 import Header from "./Header"; 
+import Note from "./Note"; 
 import Footer from "./Footer"; 
 
 
-const root = ReactDOM.createRoot(document.getElementByID("root")); 
 
-
-
-root.render(
-    <React.StrictMode>
+function App() {
+    return (
         <div>
             <body>
                 <Header />
@@ -17,5 +14,7 @@ root.render(
                 <Footer />
             </body>
         </div>
-    </React.StrictMode>
-); 
+    ); 
+}
+
+export default App;

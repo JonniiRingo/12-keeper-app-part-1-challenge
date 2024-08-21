@@ -1,5 +1,5 @@
 import React from "react"; 
-import "./styles"; 
+
 
 function Header(){
     return (<header><h1>Keeper</h1></header>); 
